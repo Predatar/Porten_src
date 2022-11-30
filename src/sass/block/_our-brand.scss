@@ -1,0 +1,40 @@
+.our-brand {
+    min-height: 150px;
+    padding-top: 90px;
+    padding-bottom: 106px;
+    background: #000;
+
+    &__container {
+        margin: 0 auto;
+        width: 1385px;
+    }
+
+    &__title {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .divider {
+        margin-top: 55px;
+        margin-bottom: 66px;
+    }
+
+    &__group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item{
+        padding: 15px;
+        img{
+            width: 100%;
+        }
+    }
+}

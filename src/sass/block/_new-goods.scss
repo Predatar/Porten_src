@@ -1,0 +1,65 @@
+.new-goods {
+    min-height: 1000px;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    background: #000;
+
+
+    .divider {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    &__title {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .watch {
+        &__item {
+            width: 23.7%;
+        }
+        &__img {
+            
+            &:last-child {
+                position: relative;
+
+                .backdor{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    backdrop-filter: blur(1.5px);
+                    background: rgba(25, 27, 28, 0.5);
+
+                    a {
+                        width: 188px;
+                        padding: 12px 28px;
+                        border: 1px solid #ffffff;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        
+                        
+        
+                        font-family: 'Playfair Display';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #ffffff;
+                    }
+                }
+            }
+            
+        }
+    }
+}

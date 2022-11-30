@@ -1,0 +1,2 @@
+window.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector(".hamburger"),t=document.querySelectorAll(".hamburger span"),o=document.querySelector(".hamburger__menu");e.addEventListener("click",(()=>{t[0].classList.toggle("rotateRight"),t[1].classList.toggle("hide"),t[2].classList.toggle("rotateLeft"),o.classList.toggle("show")}))}));
+//# sourceMappingURL=bundle.js.map

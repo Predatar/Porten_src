@@ -1,0 +1,113 @@
+.articles {
+    min-height: 1000px;
+    padding-top: 57.5px;
+    background: $second_color;
+
+    &__title {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .divider {
+        margin-top: 36.5px;
+        margin-bottom: 57px;
+    }
+
+    &__row {
+        max-height: 500px;
+        display: flex;
+        margin: 35px 0;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    &__img {
+        width: 51.51%;
+        margin-right: 7.63%;
+        img{
+            width: 100%;
+        }
+    }
+
+    &__info {
+        padding: 2.79% 0 9.2%;
+    }
+
+    &__caption {
+        margin-bottom: 14px;
+
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    &__content {
+        width: 628px;
+        height: 86px;
+        margin-bottom: 39px;
+
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #ffffff;
+    }
+
+    &__managing{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__btn {
+        display: block;
+        padding: 12px 28px;
+        border: 1px solid #ffffff;
+
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &__tags {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 47px;
+    }
+
+    &__tag {
+        margin: 0 8px;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: right;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap');
+
+@import 'base/variables';
+@import 'block/watch';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+.container-fluid {
+    padding: 0;
+}
+.row {
+    margin: 0;
+}
+.divider {
+    margin: 50px auto;
+    width: 120px;
+    border: 1px solid #ffffff;
+}
+.title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.hamburger {
+    &__menu {
+        position: absolute;
+        background: #000;
+        opacity: 0.9;
+        width: 50%;
+        height: 10%;
+        top: 0;
+        left: -100%;
+        z-index: 10;
+        transition: all .5s;
+    }
+
+    &__nav-list {
+        margin-top: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    &__nav-item {
+        width: auto;
+        height: 80px;
+        padding: 31px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $text_color;
+
+        &:hover {
+            background: $hover_color;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+.show {
+    left: 0;
+}
+
+@import 'block/header';
+@import 'block/first-screen';
+@import 'block/collections';
+@import 'block/new-goods';
+@import 'block/articles';
+@import 'block/our-brand';
+@import 'block/footer';
+
+@import 'base/media';
